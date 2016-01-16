@@ -30,7 +30,7 @@ public class CountUpServlet extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		super.init();
-		// 1sごとにインクリメントする
+		// 5sごとにインクリメントする
 		Timer timer = new Timer();
 		TimerTask task = new TimerTask() {
 			@Override
